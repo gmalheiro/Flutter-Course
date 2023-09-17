@@ -10,7 +10,10 @@ void main() {
           Color.fromARGB(255, 45, 7, 98)
         ], begin: Alignment.topLeft, end: Alignment.bottomRight)),
         child: const Center(
-          child: Text("Hello World!"),
+          child: Text(
+            "Hello World!",
+            style: TextStyle(color: Colors.white, fontSize: 28),
+          ),
         ),
       ),
     ),
