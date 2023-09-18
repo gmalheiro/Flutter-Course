@@ -5,7 +5,7 @@ class StyledText extends StatelessWidget {
   @override
   Widget build(context) {
     return const Text(
-      'Eita',
+      'Hello World! Flutter',
       style: TextStyle(color: Colors.white, fontSize: 28),
     );
   }
