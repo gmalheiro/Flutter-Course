@@ -16,7 +16,7 @@ class GradientContainer extends StatelessWidget {
         Color.fromARGB(255, 26, 2, 80),
         Color.fromARGB(255, 45, 7, 98)
       ], begin: Alignment.topLeft, end: Alignment.bottomRight)),
-      child: const Center(child: StyledText()),
+      child: const Center(child: StyledText('Hello World! Flutter')),
     );
   }
 }
