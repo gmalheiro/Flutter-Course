@@ -8,6 +8,10 @@ Alignment endALignmentOpaBl = Alignment.bottomRight;
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.colorA, this.colorB, {super.key});
 
+  const GradientContainer.purple({super.key})
+      : colorA = Colors.deepPurple,
+        colorB = Colors.indigo;
+
   final Color colorA;
   final Color colorB;
 
