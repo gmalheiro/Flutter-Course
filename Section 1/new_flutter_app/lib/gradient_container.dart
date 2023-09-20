@@ -33,9 +33,11 @@ class GradientContainer extends StatelessWidget {
             'assets/images/dice-1.png',
             width: 200,
           ),
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: rollDice,
             style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.only(top: 20),
                 foregroundColor: Colors.white,
                 backgroundColor: Colors.red,
                 textStyle: const TextStyle(fontSize: 28)),
