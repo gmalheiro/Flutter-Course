@@ -27,12 +27,20 @@ class GradientContainer extends StatelessWidget {
               end: endALignment)),
       child: Center(
           child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
             'assets/images/dice-1.png',
             width: 200,
           ),
-          ElevatedButton(onPressed: rollDice, child: const Text("Roll Dice"))
+          ElevatedButton(
+            onPressed: rollDice,
+            style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.white,
+                backgroundColor: Colors.red,
+                textStyle: const TextStyle(fontSize: 28)),
+            child: const Text("Roll Dice"),
+          )
         ],
       )),
     );
